@@ -11,19 +11,21 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">About</Link>
           </h2>
-          <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+          <p>Hi, I&apos;m Dinis, a Data Scientist with 5+ years
+            in data analytics and machine learning.
+            I have experience in healthcare,
+            including telemedicine,
+            and a background in medicine that enriches my data analysis work.
           </p>
         </div>
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link> or{' '}
+        Welcome to my website. Please feel free to ask me to show my{' '}
+        <Link to="/contact">private repositories on GitHub</Link>, or you can check out my{' '}
+        <Link to="/resume">resume</Link>, <Link to="/projects">some projects</Link> or{' '}
         <Link to="/contact">contact</Link> me.
       </p>
     </article>

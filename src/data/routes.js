@@ -4,10 +4,10 @@ const routes = [
     label: 'Dinis Akulov',
     path: '/',
   },
-  {
-    label: 'About',
-    path: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   path: '/about',
+  // },
   {
     label: 'Resume',
     path: '/resume',
@@ -16,6 +16,10 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
+  // {
+  //   label: 'Stats',
+  //   path: '/stats',
+  // },
   {
     label: 'Contact',
     path: '/contact',
