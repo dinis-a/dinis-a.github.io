@@ -65,6 +65,12 @@ const Skills = ({ skills, categories }) => {
       <div className="link-to" id="skills" />
       <div className="title">
         <h3>Skills</h3>
+        <p>
+          Here is a mostly honest overview of my skills.
+        </p>
+      </div>
+      <div className="skill-button-container">{getButtons()}</div>
+      <div className="skill-row-container">{getRows()}</div>
         <h4>Languages</h4>
         <div style={{ textAlign: 'left' }}>
           <p style={{ margin: 0 }}>🇷🇺 Russian - Native speaker</p>
@@ -72,12 +78,6 @@ const Skills = ({ skills, categories }) => {
           <p style={{ margin: 0 }}>🇬🇧 English - Advanced - B2/C1</p>
           <p style={{ margin: 0 }}>🇸🇦 Arabic - Elementary / Communicative - A2</p>
         </div>
-        <p>
-          Here is a mostly honest overview of my skills.
-        </p>
-      </div>
-      <div className="skill-button-container">{getButtons()}</div>
-      <div className="skill-row-container">{getRows()}</div>
     </div>
   );
 };
