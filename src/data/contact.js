@@ -20,6 +20,11 @@ const data = [
     label: 'Email',
     icon: faEnvelope,
   },
+  {
+    link: 'https://t.me/dinis_n',
+    label: 'Telegram',
+    icon: faEnvelope,
+  },
 ];
 
 export default data;
