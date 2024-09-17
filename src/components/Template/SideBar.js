@@ -14,7 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Michael D&apos;Angelo</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:akulov.dinis@gmal.com">akulov.dinis@gmal.com</a>
         </p>
       </header>
     </section>
@@ -22,13 +22,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Dinis. I am a Data Scientist with over 13 years of experience, specializing in BI analytics, data analysis, and machine learning. I have a strong background in data collection, analysis, and model development. My expertise spans various industries, including healthcare, where I led telemedicine initiatives and developed machine learning models to detect skin cancer. I’m actively involved in Kaggle competitions and continuously enhance my skills through professional courses. In addition to data science, I have a solid foundation in medicine and telemedicine, which adds unique value to my work in analyzing and improving healthcare data.
       </p>
       <ul className="actions">
         <li>
