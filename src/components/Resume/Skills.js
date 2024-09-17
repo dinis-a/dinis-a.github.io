@@ -71,6 +71,11 @@ const Skills = ({ skills, categories }) => {
       </div>
       <div className="skill-button-container">{getButtons()}</div>
       <div className="skill-row-container">{getRows()}</div>
+        <h3>Languages</h3>
+        <p>🇷🇺 Russian - Native speaker</p>
+        <p>🇪🇸 Spanish - Proficient - Diploma of Spanish as a Foreign Language, Level C1 (DELE C1)</p>
+        <p>🇬🇧 English - Advanced - B2/C1</p>
+        <p>🇸🇦 Arabic - Elementary / Communicative - A2</p>
     </div>
   );
 };
