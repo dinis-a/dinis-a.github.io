@@ -24,7 +24,7 @@ const SideBar = () => (
       <p>I&apos;m Dinis. I am a Data Scientist with over 5 years of experience,
         specializing in BI analytics, data analysis, and machine learning.
         My expertise spans various industries, including healthcare,
-        where I led telemedicine initiativesand
+        where I led telemedicine initiatives and
         developed machine learning models to detect skin cancer.
         In addition to data science,
         I have a solid foundation in medicine and telemedicine,
