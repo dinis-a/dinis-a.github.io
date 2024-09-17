@@ -66,9 +66,10 @@ const Skills = ({ skills, categories }) => {
       <div className="title">
         <h3>Skills</h3>
         <h4>Languages</h4>
-        <div style={{ textAlign: "left" }}>
+        <div style={{ textAlign: 'left' }}>
           <p style={{ margin: 0 }}>🇷🇺 Russian - Native speaker</p>
-          <p style={{ margin: 0 }}>🇪🇸 Spanish - Proficient - Diploma of Spanish as a Foreign Language, Level C1 (DELE C1)</p>
+          <p style={{ margin: 0 }}>🇪🇸 Spanish - Proficient - 
+                                   Diploma of Spanish as a Foreign Language, Level C1 (DELE C1)</p>
           <p style={{ margin: 0 }}>🇬🇧 English - Advanced - B2/C1</p>
           <p style={{ margin: 0 }}>🇸🇦 Arabic - Elementary / Communicative - A2</p>
         </div>
