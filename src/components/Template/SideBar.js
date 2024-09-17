@@ -22,7 +22,14 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Dinis. I am a Data Scientist with over 13 years of experience, specializing in BI analytics, data analysis, and machine learning. I have a strong background in data collection, analysis, and model development. My expertise spans various industries, including healthcare, where I led telemedicine initiatives and developed machine learning models to detect skin cancer. I’m actively involved in Kaggle competitions and continuously enhance my skills through professional courses. In addition to data science, I have a solid foundation in medicine and telemedicine, which adds unique value to my work in analyzing and improving healthcare data.
+        Hi, I&apos;m Dinis. I am a Data Scientist with over 5 years of experience, 
+        specializing in BI analytics, data analysis, and machine learning. 
+        I have a strong background in data collection, analysis, and model development. 
+        My expertise spans various industries, including healthcare, where I led telemedicine initiatives 
+        and developed machine learning models to detect skin cancer. 
+        I&apos;m actively involved in Kaggle competitions and continuously enhance my skills through professional courses.
+        In addition to data science, I have a solid foundation in medicine and telemedicine,
+        which adds unique value to my work in analyzing and improving healthcare data.
       </p>
       <ul className="actions">
         <li>
