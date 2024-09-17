@@ -65,6 +65,12 @@ const Skills = ({ skills, categories }) => {
       <div className="link-to" id="skills" />
       <div className="title">
         <h3>Skills</h3>
+        <h2>Languages</h2>
+        <p>🇵🇱 Polish - Native speaker</p>
+        <p>🇬🇧 English - Proficient C1/C2</p>
+        <p>🇫🇷 French - Advanced - C1</p>
+        <p>🇪🇸 Spanish - Intermediate - B1/B2</p>
+        <p>🇩🇪 German - Elementary / Communicative - A2</p>
         <p>
           Here is a mostly honest overview of my skills.
         </p>
