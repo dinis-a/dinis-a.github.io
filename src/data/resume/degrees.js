@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Pavlov Saint Petersburg State Medical University',
+    degree: 'General Medicine',
+    link: 'https://en.1spbgmu.ru/',
+    year: 2013,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'North-Western State Medical University named after I.I. Mechnikov',
+    degree: 'Neurosurgery',
+    link: 'https://szgmu.ru/eng/',
+    year: 2015,
   },
 ];
 

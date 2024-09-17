@@ -12,7 +12,7 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Dinis Akulov</h2>
         <p>
           <a href="mailto:akulov.dinis@gmal.com">akulov.dinis@gmal.com</a>
         </p>
@@ -23,7 +23,6 @@ const SideBar = () => (
       <h2>About</h2>
       <p>Hi, I&apos;m Dinis. I am a Data Scientist with over 5 years of experience,
         specializing in BI analytics, data analysis, and machine learning.
-        I have a strong background in data collection, analysis, and model development.
         My expertise spans various industries, including healthcare,
         where I led telemedicine initiativesand
         developed machine learning models to detect skin cancer.
@@ -49,7 +48,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Dinis AKulov <Link to="/">dinis-a.github.io</Link>.
       </p>
     </section>
   </section>
