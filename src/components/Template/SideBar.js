@@ -30,7 +30,7 @@ const SideBar = () => (
         I have a solid foundation in medicine and telemedicine,
         which adds unique value to my work in analyzing and improving healthcare data.
       </p>
-      <ul className="actions">
+      {/* <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? (
             <Link to="/resume" className="button">
@@ -42,7 +42,7 @@ const SideBar = () => (
             </Link>
           )}
         </li>
-      </ul>
+      </ul> */}
     </section>
 
     <section id="footer">
