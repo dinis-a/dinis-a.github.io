@@ -73,7 +73,7 @@ const Skills = ({ skills, categories }) => {
       <div className="skill-row-container">{getRows()}</div>
       <div className="title">
         <h4>Languages</h4>
-      </div>      
+      </div>
       <div style={{ textAlign: 'left' }}>
         <p style={{ margin: 0 }}>🇷🇺 Russian - Native speaker</p>
         <p style={{ margin: 0 }}>🇪🇸 Spanish - Proficient - (DELE C1)</p>
