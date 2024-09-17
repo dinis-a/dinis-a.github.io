@@ -68,12 +68,6 @@ const Skills = ({ skills, categories }) => {
         <p>
           Here is a mostly honest overview of my skills.
         </p>
-        <h2>Languages</h2>
-        <p>🇷🇺 Russian - Native speaker
-           🇪🇸 Spanish - Proficient - Diploma of Spanish as a Foreign Language, Level C1 (DELE C1)
-           🇬🇧 English - Advanced - B2/C1
-           🇸🇦 Arabic - Elementary / Communicative - A2
-        </p>
       </div>
       <div className="skill-button-container">{getButtons()}</div>
       <div className="skill-row-container">{getRows()}</div>
