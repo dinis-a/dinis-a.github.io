@@ -5,7 +5,7 @@ import '@testing-library/jest-dom';
 import '@testing-library/react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { act } from 'react-dom/test-utils';
+import { act } from 'react';
 import App from '../App';
 
 describe('renders the app', () => {
@@ -63,7 +63,7 @@ describe('renders the app', () => {
   it('can navigate to /resume', async () => {
     expect.assertions(3);
     const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(2) > a',
+      '#header > nav > ul > li:nth-child(1) > a',
     );
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
@@ -76,7 +76,7 @@ describe('renders the app', () => {
   it('can navigate to /projects', async () => {
     expect.assertions(3);
     const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(3) > a',
+      '#header > nav > ul > li:nth-child(2) > a',
     );
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
@@ -104,7 +104,7 @@ describe('renders the app', () => {
   it('can navigate to /contact', async () => {
     expect.assertions(3);
     const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(4) > a',
+      '#header > nav > ul > li:nth-child(3) > a',
     );
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
