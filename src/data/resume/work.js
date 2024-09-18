@@ -54,18 +54,6 @@ const work = [
     ],
   },
   {
-    name: 'Freelance',
-    position: 'Scientific Writer',
-    url: '',
-    startDate: '2015-08-01',
-    endDate: '2020-05-01',
-    summary: `Writing academic and scientific papers 
-              on freelance platforms.`,
-    highlights: [
-      'Authored 4 doctoral dissertations, 16 PhD dissertations, and 124 master’s theses, and wrote 193 scientific articles in the fields of medicine, biology, and psychology.',
-    ],
-  },
-  {
     name: 'Experience in the field of medicine',
     position: 'Medical Worker',
     url: '',
@@ -78,6 +66,18 @@ const work = [
       '06/2013 – 08/2015: General Practitioner. City Medical and Social Center, St. Petersburg, Russia',
       '11/2010 – 03/2013: Nurse. Cardiovascular Surgery Department (10/2011 – 03/2013), Ophthalmology Department (11/2010 – 10/2011). St. Petersburg State Pavlov Medical University, St. Petersburg, Russia',
       '06/2011 – 08/2011: Paramedic. Ivanovo City Hospital, Ivanovo, Russia',
+    ],
+  },
+  {
+    name: 'Freelance',
+    position: 'Scientific Writer',
+    url: '',
+    startDate: '2015-08-01',
+    endDate: '2018-05-01',
+    summary: `Writing academic and scientific papers 
+              on freelance platforms.`,
+    highlights: [
+      'Authored 193 scientific articles in the fields of medicine, biology, and psychology.',
     ],
   },
 ];
