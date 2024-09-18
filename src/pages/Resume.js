@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
+import Adds from '../components/Resume/Additional';
 import Languages from '../components/Resume/Languages';
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
@@ -13,6 +14,7 @@ import References from '../components/Resume/References';
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import languages from '../data/resume/languages';
+import additional from '../data/resume/additional';
 
 import work from '../data/resume/work';
 import { skills, categories } from '../data/resume/skills';
@@ -24,6 +26,7 @@ const sections = {
   Languages: () => <Languages data={languages} />,
   Courses: () => <Courses data={courses} />,
   Education: () => <Education data={degrees} />,
+  Extras: () => <Adds data={additional} />,
   References: () => <References />,
 };
 
