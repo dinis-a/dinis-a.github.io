@@ -77,7 +77,6 @@ const work = [
       '09/2018 – 11/2019: General Practitioner (Telemedicine). World Telehealth Company LLC, Hanover, Maryland, United States',
       '06/2013 – 08/2015: General Practitioner. City Medical and Social Center, St. Petersburg, Russia',
       '11/2010 – 03/2013: Nurse. Cardiovascular Surgery Department (10/2011 – 03/2013), Ophthalmology Department (11/2010 – 10/2011). St. Petersburg State Pavlov Medical University, St. Petersburg, Russia',
-      '04/2010: III degree diploma in scientific conference “Current issues of experimental and clinical medicine – 2010”',
       '06/2011 – 08/2011: Paramedic. Ivanovo City Hospital, Ivanovo, Russia',
     ],
   },
