@@ -113,4 +113,4 @@ describe('renders the app', () => {
 //     expect(document.title).toContain('Contact |');
 //     expect(window.location.pathname).toBe('/contact');
 //   });
-// });
+});
