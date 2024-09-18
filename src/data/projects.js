@@ -1,7 +1,7 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'VoiceAI',
+    title: 'VoiceAI - dinisakulov.online',
     subtitle: 'Web Application',
     image: '/images/projects/voice.png',
     date: '2024-12-01',
@@ -10,7 +10,7 @@ const data = [
       "VoiceAI is an advanced AI voice assistant powered by Google's LLM. It offers intuitive and conversational interactions, leveraging state-of-the-art natural language processing to understand and respond to user queries with high accuracy.",
   },
   {
-    title: 'AI Assistant Chatbot',
+    title: 'AI Assistant Chatbot - @GeminiDBot',
     subtitle: 'Telegram Bot',
     image: '/images/projects/gemini.jpg',
     date: '2023-12-01',
@@ -19,7 +19,7 @@ const data = [
       'The AI Assistant Chatbot is a Telegram-based chatbot that allows users to interact seamlessly with a powerful artificial intelligence developed by Google. The bot offers real-time responses to user queries, making it an ideal tool for various tasks such as answering questions, providing information, and even offering creative suggestions. The chatbot integrates with Google AI technologies, bringing the capabilities of advanced machine learning and natural language understanding directly to your fingertips through the familiar Telegram interface.',
   },
   {
-    title: 'Skin Cancer Detection via Photo',
+    title: 'Skin Cancer Detection via Photo - @Skin_ArtI_bot',
     subtitle: 'Telegram bot',
     image: '/images/projects/melanoma.jpg',
     date: '2020-01-20',
