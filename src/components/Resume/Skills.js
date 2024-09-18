@@ -71,15 +71,6 @@ const Skills = ({ skills, categories }) => {
       </div>
       <div className="skill-button-container">{getButtons()}</div>
       <div className="skill-row-container">{getRows()}</div>
-      <div className="title">
-        <h4>Languages</h4>
-      </div>
-      <div style={{ textAlign: 'left' }}>
-        <p style={{ margin: 0 }}>🇷🇺 Russian - Native speaker</p>
-        <p style={{ margin: 0 }}>🇪🇸 Spanish - Proficient - (DELE C1)</p>
-        <p style={{ margin: 0 }}>🇬🇧 English - Advanced - B2/C1</p>
-        <p style={{ margin: 0 }}>🇸🇦 Arabic - Elementary / Communicative - A2</p>
-      </div>
     </div>
   );
 };
