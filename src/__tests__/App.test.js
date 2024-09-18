@@ -3,9 +3,8 @@
  */
 import '@testing-library/jest-dom';
 import '@testing-library/react';
-import React from 'react';
+import React, { act } from 'react';
 import ReactDOM from 'react-dom/client';
-import { act } from 'react';
 import App from '../App';
 
 describe('renders the app', () => {
@@ -43,5 +42,4 @@ describe('renders the app', () => {
   it('should render the title', async () => {
     expect(document.title).toBe('Dinis Akulov');
   });
-
 });
