@@ -31,7 +31,7 @@ const work = [
     startDate: '2020-05-01',
     endDate: '2023-11-01',
     summary: `Proven expertise in optimizing warehouse logistics 
-              through innovative data-driven solutions and personnel management. S`,
+              through innovative data-driven solutions and personnel management.`,
     highlights: [
       'Implemented an automated system for tracking warehouse personnel performance, leading to a 12% increase in operational efficiency',
       'Optimized staff allocation and shift planning, reducing downtime by 17%',
