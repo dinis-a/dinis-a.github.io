@@ -57,12 +57,12 @@ const work = [
     name: 'Freelance',
     position: 'Scientific Writer',
     url: '',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
+    startDate: '2015-08-01',
+    endDate: '2020-05-01',
     summary: `Writing academic and scientific papers 
               on freelance platforms.`,
     highlights: [
-      'Wrote 193 scientific articles in the fields of medicine, biology, and psychology.',
+      'Authored 4 doctoral dissertations, 16 PhD dissertations, and 124 master’s theses, and wrote 193 scientific articles in the fields of medicine, biology, and psychology.',
     ],
   },
   {
