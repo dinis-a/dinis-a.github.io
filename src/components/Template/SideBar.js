@@ -47,9 +47,9 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">
-        &copy; Dinis AKulov <Link to="/">dinis-a.github.io</Link>.
-      </p>
+      {/* <p className="copyright">
+        &copy; Dinis Akulov <Link to="/">dinis-a.github.io</Link>.
+      </p> */}
     </section>
   </section>
 );
