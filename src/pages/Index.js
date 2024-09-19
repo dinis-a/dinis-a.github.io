@@ -15,9 +15,8 @@ const Index = () => (
           </h2>
           <p>Hi, I&apos;m Dinis, a Data Scientist with 5+ years
             in data analytics and machine learning.
-            I have experience in healthcare,
-            including telemedicine,
-            and a background in medicine that enriches my data analysis work.
+            I have experience in the medical field,
+            which enriches my data analysis work.
           </p>
         </div>
       </header>
