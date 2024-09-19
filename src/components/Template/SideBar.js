@@ -27,7 +27,7 @@ const SideBar = () => (
         where I led telemedicine initiatives and
         developed machine learning models to detect skin cancer.
         In addition to data science,
-        I have a solid foundation in medicine and telemedicine,
+        I have a solid foundation in medicine,
         which adds unique value to my work in analyzing and improving healthcare data.
       </p>
       {/* <ul className="actions">
