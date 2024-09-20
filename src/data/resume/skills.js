@@ -7,7 +7,7 @@ const skills = [
   {
     title: 'Statistical analysis',
     competency: 4,
-    category: ['Tools', 'Languages'],
+    category: ['Tools'],
   },
   {
     title: 'Bash',
