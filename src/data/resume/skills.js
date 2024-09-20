@@ -8,6 +8,11 @@ const skills = [
     title: 'Bash',
     competency: 3,
     category: ['Tools', 'Languages'],
+  },  
+  {
+    title: 'Git',
+    competency: 3,
+    category: ['Tools'],
   },
   {
     title: 'PostgreSQL',
