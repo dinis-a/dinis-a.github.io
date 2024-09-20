@@ -25,6 +25,11 @@ const skills = [
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
+    title: 'MongoDB (PyMongo)',
+    competency: 2,
+    category: ['Web Development', 'Databases'],
+  },
+  {
     title: 'Flask',
     competency: 3,
     category: ['Web Development', 'Python'],
