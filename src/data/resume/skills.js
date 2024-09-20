@@ -10,29 +10,14 @@ const skills = [
     category: ['Tools', 'Languages'],
   },
   {
-    title: 'MongoDB',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'PostgreSQL',
     competency: 4,
     category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Data Mining',
-    competency: 3,
-    category: ['Data Science'],
   },
   {
     title: 'Flask',
     competency: 3,
     category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'AWS',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
   },
   {
     title: 'Docker',
@@ -42,11 +27,6 @@ const skills = [
   {
     title: 'Numpy',
     competency: 4,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Tensorflow + Keras',
-    competency: 2,
     category: ['Data Science', 'Python'],
   },
   {
@@ -60,19 +40,9 @@ const skills = [
     category: ['Data Science', 'Python'],
   },
   {
-    title: 'HTML + CSS',
-    competency: 2,
-    category: ['Web Development', 'Languages'],
-  },
-  {
     title: 'Python',
     competency: 5,
     category: ['Data Science', 'Languages', 'Python'],
-  },
-  {
-    title: 'R',
-    competency: 1,
-    category: ['Languages'],
   },
   {
     title: 'Pandas',
