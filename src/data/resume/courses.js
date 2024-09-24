@@ -1,6 +1,6 @@
 const courses = [
   {
-    title: 'Data Analytics',
+    title: 'Data Analyst',
     number: 'Tomsk State University',
     link: 'https://en.tsu.ru/',
     university: 'Tomsk State University',
