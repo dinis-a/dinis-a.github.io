@@ -50,11 +50,6 @@ const skills = [
     category: ['Data Science', 'Python'],
   },
   {
-    title: 'Jupyter',
-    competency: 5,
-    category: ['Data Science', 'Python'],
-  },
-  {
     title: 'Python',
     competency: 5,
     category: ['Data Science', 'Languages', 'Python'],
