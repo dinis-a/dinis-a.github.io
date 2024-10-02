@@ -35,7 +35,6 @@ const work = [
     highlights: [
       'Implemented an automated system for tracking warehouse personnel performance, leading to a 12% increase in operational efficiency',
       'Optimized staff allocation and shift planning, reducing downtime by 17%',
-      'Developed a real-time inventory management solution, minimizing order processing errors by 21%',
     ],
   },
   {
