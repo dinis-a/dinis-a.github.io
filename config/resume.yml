@@ -87,14 +87,14 @@ LANGUAGES:
   display_percentage_values: true
   label: "Languages"
   items:
-    - language: "🇸🇦 Arabic - Elementary / Communicative - A2"
-      proficiency: "30%"
     - language: "🇺🇸 English - Advanced"
       proficiency: "75%"
     - language: "🇪🇸 Spanish - Proficient"
       proficiency: "90%"
     - language: "🇷🇺 Russian - Native speaker"
       proficiency: "100%"
+    - language: "🇸🇦 Arabic - Elementary / Communicative - A2"
+      proficiency: "30%"
 
 SKILLS:
   enabled: true
