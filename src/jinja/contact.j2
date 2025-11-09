@@ -1,27 +1,72 @@
-<!-- contact.j2 -->
 <article class="contact" data-page="contact">
   <header>
     <h2 class="h2 article-title">{{contact.HEADER.label}}</h2>
   </header>
-  <section class="mapbox" data-mapbox>
-    <figure>
-      <iframe
-        src="{{contact.LOCATION.embed}}"
-        width="400" height="300" loading="lazy"></iframe>
-    </figure>
-  </section>
-  <section class="contact-form">
+
+  <section class="contact-message">
     <h3 class="h3 form-title">{{contact.FORM.label}}</h3>
-    <form action="mailto:{{profile.USER.email}}" method="POST" class="form" data-form>
-      <div class="input-wrapper">
-        <input type="text" name="fullname" class="form-input" placeholder="{{contact.FORM.fields[0].name}}" required data-form-input>
-        <input type="email" name="email" class="form-input" placeholder="{{contact.FORM.fields[1].email}}" required data-form-input>
-      </div>
-      <textarea name="message" class="form-input" placeholder="{{contact.FORM.fields[2].message}}" required data-form-input></textarea>
-      <button class="form-btn" type="submit" disabled data-form-btn>
-        <ion-icon name="paper-plane"></ion-icon>
-        <span>{{contact.FORM.fields[3].submit}}</span>
-      </button>
-    </form>
+    <div id="email-link" class="inline-container"></div>
   </section>
+
+  <!-- Социальные сети -->
+  <div class="separator"></div>
+  <ul class="social-list">
+    {% for social in profile.SOCIAL %}
+    <li class="social-item">
+      <a href="{{social.url}}" class="social-link" target="_blank">
+        <ion-icon name="{{social.icon}}" size="large"></ion-icon>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </article>
+
+<script>
+  const messages = [
+    'hi ', 'hello ', 'привет ', 'hola ',
+    'you-can-email-me-at-literally-anything! ',
+    'well, not anything. But most things ', 'like-this ', 'or-this ',
+    'but not this :(  ', 'you.can.also.email.me.with.specific.topics.like ',
+    'just-saying-hi ', 'please-work-for-us ', 'help ',
+    'admin ', 'or-I-really-like-your-website ', 'thanks '
+  ];
+
+  const emailRoot = document.getElementById('email-link');
+  const email = 'akulov.dinis@gmail.com';
+  let idx = 0;
+  let char = 0;
+  const delay = 50;
+  const hold = 50;
+
+  // Ссылка создается один раз
+  const link = document.createElement('a');
+  emailRoot.appendChild(link);
+
+  const spanMessage = document.createElement('span');
+  const spanEmail = document.createElement('span');
+  spanEmail.textContent = email;
+
+  link.appendChild(spanMessage);
+  link.appendChild(spanEmail);
+
+  // Всегда mailto на основной email
+  link.href = `mailto:${email}`;
+
+  function renderMessage() {
+    const currentMessage = messages[idx].slice(0, char);
+    spanMessage.textContent = currentMessage;
+
+    char++;
+    if (char > messages[idx].length + hold) {
+      idx = (idx + 1) % messages.length;
+      char = 0;
+    }
+  }
+
+  let intervalId = setInterval(renderMessage, delay);
+
+  emailRoot.addEventListener('mouseenter', () => clearInterval(intervalId));
+  emailRoot.addEventListener('mouseleave', () => {
+    intervalId = setInterval(renderMessage, delay);
+  });
+</script>
