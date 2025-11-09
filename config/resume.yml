@@ -120,6 +120,8 @@ SKILLS:
       proficiency: "80%"
     - skill: "Bash"
       proficiency: "70%"
+    - skill: "HDFS, Hive, Hue, Yarn"
+      proficiency: "50%"
     - skill: "C++ (pybind11)"
       proficiency: "20%"
 
