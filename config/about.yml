@@ -11,13 +11,13 @@ DOING:
   label: "What I'm doing"
   items:
     - title: "Data Analysis"
-      icon: "config/assets/icons/jupyter.svg"
+      icon: "config/assets/icons/analysis.svg"
       description: "Professional analysis and interpretation of data to drive business insights and informed decision-making."
     - title: "Machine learning"
       icon: "config/assets/icons/ai.svg"
       description: "Designing, training, and deploying machine learning models to solve complex problems and extract actionable insights."
     - title: "DevOps"
-      icon: "config/assets/icons/laptop-code.svg"
+      icon: "config/assets/icons/chip.svg"
       description: "Implementing and managing CI/CD pipelines, infrastructure automation, and scalable deployment processes."
 
 SKILLS:
