@@ -564,23 +564,17 @@ main {
 
 .testimonials-title { margin-bottom: 20px; }
 
+/* Skills 2-column layout, no scrollbar */
 .testimonials-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px 15px;
-  padding-bottom: 35px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* space between items */
+  margin: 0;
+  padding: 0;
+  overflow: visible; /* remove scroll */
 }
-
 .testimonials-item {
-  min-width: 100%;
-  scroll-snap-align: center;
+  min-width: auto; /* fit grid cell */
 }
 
 .testimonials-avatar-box {
@@ -728,31 +722,31 @@ main {
 
 .clients { margin-bottom: 15px; }
 
+/* Remove scrollbar and display clients in 2 columns */
 .clients-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  display: grid;                     /* switch from flex to grid */
+  grid-template-columns: repeat(3, 1fr); /* 2 equal columns */
+  gap: 25px;                         /* adjust spacing between items */
+  margin: 0;                          /* remove negative margins used for scrolling */
+  padding: 0;                         /* remove padding used for scrolling */
+  overflow: visible;                  /* remove horizontal scroll */
+  scroll-snap-type: none;             /* no snapping needed */
 }
-
 .clients-item {
-  min-width: 50%;
-  scroll-snap-align: start;
+  min-width: auto;                    /* let items fit grid cells */
+  scroll-snap-align: none;            /* remove snap */
+  display: flex;
+  justify-content: center;            /* center icon in the grid cell */
+  align-items: center;
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
+  width: 50px;   /* fixed size */
+  height: 50px;
+  object-fit: contain;
+  filter: none;  /* optional: remove grayscale if you want color by default */
 }
+
 
 .clients-item img:hover { filter: grayscale(0); }
 

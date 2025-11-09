@@ -50,6 +50,29 @@
   </section>
   {% endif %}
 
+  <!-- COURSES -->
+  {% if resume.COURSES.enabled %}
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">{{resume.COURSES.label}}</h3>
+    </div>
+    <ol class="timeline-list">
+      {% for item in resume.COURSES["items"] | reverse %}
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">{{item.institution}}</h4>
+        <span>{{item.period}}</span>
+        <p class="timeline-text">
+          {{item.description}}
+        </p>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
   <!-- LANGUAGES -->
   {% if resume.LANGUAGES.enabled %}
   <section class="skill">

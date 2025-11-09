@@ -10,12 +10,15 @@ DOING:
   enabled: true
   label: "What I'm doing"
   items:
-    - title: "DA & ML"
-      icon: "config/assets/icons/mobile.svg"
-      description: "Professional development of applications for iOS and Android."
+    - title: "Data Analysis"
+      icon: "config/assets/icons/jupyter.svg"
+      description: "Professional analysis and interpretation of data to drive business insights and informed decision-making."
+    - title: "Machine learning"
+      icon: "config/assets/icons/ai.svg"
+      description: "Designing, training, and deploying machine learning models to solve complex problems and extract actionable insights."
     - title: "DevOps"
       icon: "config/assets/icons/laptop-code.svg"
-      description: "High-quality development of sites at the professional level."
+      description: "Implementing and managing CI/CD pipelines, infrastructure automation, and scalable deployment processes."
 
 SKILLS:
   enabled: true

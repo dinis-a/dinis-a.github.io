@@ -8,9 +8,7 @@ The website is structured to be clean, responsive, and user-friendly. It highlig
 
 ## Run project
 poetry install --with=dev
-
-poetry shell
-
 poetry add watchdog --dev
 
+poetry shell
 python3 watch.py

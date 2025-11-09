@@ -41,6 +41,32 @@ EXPERIENCE:
       position: "VK — Lead Data Scientist"
       description: ""
 
+COURSES:
+  enabled: true
+  label: "Courses"
+  items:
+    - period: "2014"
+      institution: "Medtronic"
+      description: "Practical Aspects of intraoperative neuromonitoring application in neurosurgery"
+    - period: "2018"
+      institution: "Black Sea Yacht School"
+      description: "VHF Marine Communications Master SRC, International Bareboat Skipper Sail"
+    - period: "2020"
+      institution: "Ufa University of Science and Technology"
+      description: "Machine Learning for Biomedical Data Processing"
+    - period: "2020"
+      institution: "Academy of Professional Standards"
+      description: "Qualification upgrading course (specialty “Neurosurgery”)"
+    - period: "2022"
+      institution: "Yandex"
+      description: "Data Science Specialist"
+    - period: "2022"
+      institution: "Tomsk State University"
+      description: "Data Analyst"
+    - period: "2025"
+      institution: "Karpov Courses"
+      description: "Data Science Training Simulator"
+
 LANGUAGES:
   enabled: true
   display_progress_bars: true

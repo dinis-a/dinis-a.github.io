@@ -39,7 +39,7 @@
   {% if about.SKILLS.enabled %}
   <section class="testimonials">
     <h3 class="h3 testimonials-title">{{about.SKILLS.label}}</h3>
-    <ul class="testimonials-list has-scrollbar">
+    <ul class="testimonials-list">
       {% for item in about.SKILLS["items"] %}
       <li class="testimonials-item">
         <div class="content-card" data-testimonials-item>
@@ -88,7 +88,7 @@
   {% if about.TECHNOLOGIES.enabled %}
   <section class="clients">
     <h3 class="h3 clients-title">{{about.TECHNOLOGIES.label}}</h3>
-    <ul class="clients-list has-scrollbar">
+    <ul class="clients-list">
       {% for item in about.TECHNOLOGIES["items"] %}
       <li class="clients-item">
         <a href="#">
