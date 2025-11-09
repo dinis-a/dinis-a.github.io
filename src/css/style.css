@@ -725,7 +725,7 @@ main {
 /* Remove scrollbar and display clients in 2 columns */
 .clients-list {
   display: grid;                     /* switch from flex to grid */
-  grid-template-columns: repeat(3, 1fr); /* 2 equal columns */
+  grid-template-columns: repeat(4, 1fr); /* 2 equal columns */
   gap: 25px;                         /* adjust spacing between items */
   margin: 0;                          /* remove negative margins used for scrolling */
   padding: 0;                         /* remove padding used for scrolling */
@@ -741,8 +741,8 @@ main {
 }
 
 .clients-item img {
-  width: 50px;   /* fixed size */
-  height: 50px;
+  width: 60px;   /* fixed size */
+  height: 60px;
   object-fit: contain;
   filter: none;  /* optional: remove grayscale if you want color by default */
 }
