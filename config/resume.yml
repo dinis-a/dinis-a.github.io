@@ -70,6 +70,17 @@ COURSES:
       institution: "Karpov Courses"
       description: "Data Science Training Simulator"
 
+ADDITIONAL:
+  enabled: true
+  label: "Additional"
+  items:
+    - period: "04/2010"
+      institution: "Scientific conference"
+      description: "III degree diploma in scientific conference “Current issues of experimental and clinical medicine – 2010”"
+    - period: "2018"
+      institution: "Instituto Cervantes"
+      description: "Diploma of Spanish as a Foreign Language, Level C1"
+
 LANGUAGES:
   enabled: true
   display_progress_bars: true
@@ -80,7 +91,7 @@ LANGUAGES:
       proficiency: "30%"
     - language: "🇺🇸 English - Advanced"
       proficiency: "75%"
-    - language: "🇪🇸 Spanish - Proficient - (Diploma of Spanish as a Foreign Language, Level C1)"
+    - language: "🇪🇸 Spanish - Proficient"
       proficiency: "90%"
     - language: "🇷🇺 Russian - Native speaker"
       proficiency: "100%"
