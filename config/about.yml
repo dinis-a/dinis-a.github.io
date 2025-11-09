@@ -52,3 +52,7 @@ TECHNOLOGIES:
       icon: "config/assets/icons/linux.svg"
     - title: "Docker"
       icon: "config/assets/icons/docker-mark-blue.svg"
+    - title: "MLFlow"
+      icon: "config/assets/icons/mlflow.svg"
+    - title: "Airflow"
+      icon: "config/assets/icons/airflow.svg"
