@@ -1,0 +1,10 @@
+HEADER:
+  label: "Blog"
+
+POSTS:
+  - title: "Design conferences in 2022"
+    category: "Design"
+    subtitle: "A look into the top design conferences happening this year, where innovation meets creativity."
+    published: "2022-02-23"
+    image: "config/assets/posts/blog-1.jpg"
+    url: "https://medium.com"

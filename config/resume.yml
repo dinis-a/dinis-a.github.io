@@ -5,32 +5,41 @@ EDUCATION:
   enabled: true
   label: "Education"
   items:
-    - period: "2002 — 2004"
-      institution: "High School of Art and Design"
-      description: "Graduated with honors, focusing on visual arts and design principles. Participated in multiple student exhibitions, honing skills in drawing, painting, and graphic design."
-    - period: "2005 — 2007"
-      institution: "Brooklyn Technical High School"
-      description: "Completed coursework in computer science and digital media, with a particular focus on web development and programming. Collaborated on projects involving coding and design integration."
-    - period: "2006 — 2007"
-      institution: "New York Academy of Art"
-      description: "Studied fine arts with a focus on sculpture and advanced painting techniques. Took part in workshops and intensive studio sessions, receiving feedback from industry professionals."
-    - period: "2007 — 2008"
-      institution: "University School of the Arts"
-      description: "Pursued a Bachelor of Fine Arts degree, specializing in interactive media and digital design. Graduated with a portfolio of projects blending traditional art forms with emerging technologies."
+    - period: "2007 — 2013"
+      institution: "Pavlov Saint Petersburg State Medical University"
+      description: "General Medicine"
+    - period: "2013 — 2015"
+      institution: "North-Western State Medical University named after I.I. Mechnikov"
+      description: "Neurosurgery"
+    - period: "2024 — 2027"
+      institution: "Russian New University"
+      description: "Master’s degree in Computer Science with a specialization in Artificial Intelligence Systems"
 
 EXPERIENCE:
   enabled: true
   label: "Experience"
   items:
-    - period: "2010 — 2013"
-      position: "Web Designer"
-      description: "Worked on the design and development of websites for small to medium-sized businesses. Collaborated closely with developers to ensure responsive and user-friendly designs. Led the redesign of the company’s website, improving user engagement by 25%."
-    - period: "2013 — 2015"
-      position: "Art Director"
-      description: "Led a team of designers to create visually stunning campaigns for major clients in the advertising industry. Managed the creative direction of print and digital media, ensuring consistent branding and high-quality designs. Oversaw the production of advertisements that won industry awards."
-    - period: "2015 — Present"
-      position: "Creative Director"
-      description: "Direct and oversee the creative process for a range of projects, from concept to execution. Lead cross-functional teams to create innovative design solutions for branding, marketing, and digital experiences. Recently led the redesign of a global brand’s digital presence, increasing online sales by 40%."
+    - period: "2015 — 2018"
+      position: "Freelance — Scientific Writer"
+      description: "Authored 193 scientific articles in the fields of medicine, biology, and psychology."
+    - period: "2011 — 2019"
+      position: "Medical Worker"
+      description: |
+        Worked as a doctor, emergency medical technician (EMT), and nurse. Acquired extensive experience in the field of medicine:
+          <br>
+          * 09/2018 – 11/2019: General Practitioner (Telemedicine). World Telehealth Company LLC, Hanover, Maryland, United States<br>
+          * 06/2013 – 08/2015: General Practitioner. City Medical and Social Center, St. Petersburg, Russia<br>
+          * 11/2010 – 03/2013: Nurse. Cardiovascular Surgery Department (10/2011 – 03/2013), Ophthalmology Department (11/2010 – 10/2011). St. Petersburg State Pavlov Medical University, St. Petersburg, Russia<br>
+          * 06/2011 – 08/2011: Paramedic. Ivanovo City Hospital, Ivanovo, Russia<br>
+    - period: "2018 — 2020"
+      position: "World Telehealth Company LLC — CEO"
+      description: "Founded and developed a telemedicine company from scratch. Developed an ML model for detecting skin tumor diseases. Increased the number of employees to 9. Conducted over 300 telemedicine consultations for citizens of Chile and Mexico."
+    - period: "2023 — 2024"
+      position: "ProgKids — Senior Data Analyst"
+      description: "Built a data analytics system from scratch. Developed a call monitoring system for sales managers using large language modelsю. Designed and implemented a comprehensive monitoring and alert system that reduced issue resolution time by 31% and minimized operational disruptions by 21%."
+    - period: "2024 — Present"
+      position: "VK — Lead Data Scientist"
+      description: ""
 
 LANGUAGES:
   enabled: true
@@ -38,10 +47,14 @@ LANGUAGES:
   display_percentage_values: true
   label: "Languages"
   items:
-    - language: "Inglés"
-      proficiency: "60%"
-    - language: "Francés"
-      proficiency: "40%"
+    - language: "🇸🇦 Arabic - Elementary / Communicative - A2"
+      proficiency: "30%"
+    - language: "🇺🇸 English - Advanced"
+      proficiency: "75%"
+    - language: "🇪🇸 Spanish - Proficient - (Diploma of Spanish as a Foreign Language, Level C1)"
+      proficiency: "90%"
+    - language: "🇷🇺 Russian - Native speaker"
+      proficiency: "100%"
 
 SKILLS:
   enabled: true
@@ -49,11 +62,22 @@ SKILLS:
   display_percentage_values: true
   label: "My Skills"
   items:
-    - skill: "Web Design"
-      proficiency: "80%"
-    - skill: "Graphic Design"
-      proficiency: "70%"
-    - skill: "Branding"
+    - skill: "Python"
+      proficiency: "100%"
+    - skill: "C++ (pybind11)"
+      proficiency: "20%"
+    - skill: "PySpark"
       proficiency: "90%"
-    - skill: "WordPress"
-      proficiency: "50%"
+    - skill: "Bash"
+      proficiency: "70%"
+    - skill: "Docker"
+      proficiency: "80%"
+    - skill: "PostgreSQL"
+      proficiency: "80%"
+    - skill: "Git"
+      proficiency: "80%"
+    - skill: "Statistical analysis"
+      proficiency: "80%"
+    - skill: "PyTorch"
+      proficiency: "80%"
+

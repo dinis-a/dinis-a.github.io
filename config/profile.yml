@@ -9,8 +9,8 @@ HEADER:
 USER:
   role: "Data Scientist"
   name: "Dinis Akulov"
-  username: "dinis-a" # <-- This needs to be the same as your GitHub username
-  avatar: "config/assets/avatars/my-avatar.jpg"
+  username: "dinis-a" 
+  avatar: "config/assets/avatars/my-avatar.png"
 
 INFO:
   - label: "Email"
@@ -19,6 +19,9 @@ INFO:
   - label: "Birthday"
     value: "June 29, 1990"
     icon: "calendar-outline"
+  - label: "Location"
+    value: "Kazan, Tatarstan, Russia"
+    icon: "location-outline"
 
 SOCIAL:
   - icon: "logo-linkedin"

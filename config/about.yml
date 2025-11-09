@@ -6,21 +6,14 @@ PRESENTATION:
     I'm Dinis. I am a Data Scientist with over 5 years of experience, specializing in BI analytics, data analysis, and machine learning. My expertise spans various industries, including healthcare, where I led telemedicine initiatives and developed machine learning models to detect skin cancer.
     
     In addition to data science, I have a solid foundation in medicine, which adds unique value to my work in analyzing and improving healthcare data.
-
 DOING:
   enabled: true
   label: "What I'm doing"
   items:
-    - title: "Mobile Apps"
+    - title: "DA & ML"
       icon: "config/assets/icons/mobile.svg"
       description: "Professional development of applications for iOS and Android."
-    - title: "Scripting"
-      icon: "config/assets/icons/code.svg"
-      description: "Automation and task scripting using Python to enhance efficiency and productivity."
-    - title: "UI/UX Designing"
-      icon: "config/assets/icons/compass.svg"
-      description: "Intuitive and visually appealing user interfaces and user experiences."
-    - title: "Web Development"
+    - title: "DevOps"
       icon: "config/assets/icons/laptop-code.svg"
       description: "High-quality development of sites at the professional level."
 
@@ -37,9 +30,6 @@ SKILLS:
     - title: "Problem Solving"
       icon: "config/assets/icons/gear.svg"
       description: "I am creative and efficient in identifying and solving technical problems."
-    - title: "Effective Communication"
-      icon: "config/assets/icons/comment.svg"
-      description: "I have the skill to convey ideas clearly and concisely, both technically and non-technically."
 
 TECHNOLOGIES:
   enabled: true
@@ -47,25 +37,11 @@ TECHNOLOGIES:
   items:
     - title: "Python"
       icon: "config/assets/icons/python.svg"
-    - title: "Flutter"
-      icon: "config/assets/icons/flutter.svg"
     - title: "Git"
       icon: "config/assets/icons/git.svg"
-    - title: "Figma"
-      icon: "config/assets/icons/figma.svg"
-    - title: "Firebase"
-      icon: "config/assets/icons/firebase.svg"
     - title: "Pandas"
       icon: "config/assets/icons/pandas.svg"
-    - title: "MongoDB"
-      icon: "config/assets/icons/mongodb.svg"
-    - title: "Dart"
-      icon: "config/assets/icons/dart.svg"
-    - title: "HTML"
-      icon: "config/assets/icons/html.svg"
     - title: "AI"
       icon: "config/assets/icons/ai.svg"
-    - title: "Jupyter"
-      icon: "config/assets/icons/jupyter.svg"
     - title: "Linux"
       icon: "config/assets/icons/linux.svg"
