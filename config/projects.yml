@@ -2,7 +2,11 @@ HEADER:
   label: "Portfolio"
 
 PROJECTS:
-  - title: "Flutter Cinemapedia App"
-    category: "Mobile development"
-    image: "https://i.imgur.com/ANDVQ4o.png"
-    url: "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+  - title: "Skin Cancer Detection via Photo"
+    category: "Telegram bots"
+    image: "config/assets/projects/melanoma.jpg"
+    url: ""
+  - title: "AI Assistant Chatbot"
+    category: "Telegram bots"
+    image: "config/assets/projects/gemini.jpg"
+    url: ""
