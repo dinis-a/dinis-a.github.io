@@ -3,13 +3,6 @@
   <header>
     <h2 class="h2 article-title">{{contact.HEADER.label}}</h2>
   </header>
-  <section class="mapbox" data-mapbox>
-    <figure>
-      <iframe
-        src="{{contact.LOCATION.embed}}"
-        width="400" height="300" loading="lazy"></iframe>
-    </figure>
-  </section>
   <section class="contact-form">
     <h3 class="h3 form-title">{{contact.FORM.label}}</h3>
     <form action="mailto:{{profile.USER.email}}" method="POST" class="form" data-form>
