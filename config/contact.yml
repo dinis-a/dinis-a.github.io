@@ -3,8 +3,3 @@ HEADER:
 
 FORM:
   label: "My Contacts"
-  fields:
-    - name: "Full name"
-    - email: "Email address"
-    - message: "Your message"
-    - submit: "Send message"
