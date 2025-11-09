@@ -1,0 +1,34 @@
+{
+    "editor.formatOnSave": true,
+    "cSpell.language": "en,es",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports": "explicit",
+        },
+    },
+    "cSpell.words": [
+        "Brawlhalla",
+        "Cinemapedia",
+        "Codigo",
+        "dribbble",
+        "endfor",
+        "facebook",
+        "figma",
+        "github",
+        "googlemaps",
+        "instagram",
+        "ionicons",
+        "jinja",
+        "jupyter",
+        "linkedin",
+        "linux",
+        "mongodb",
+        "Orizon",
+        "pinterest",
+        "reddit",
+        "richardhendricks",
+        "youtube"
+    ],
+}
