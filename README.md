@@ -5,3 +5,8 @@ This repository contains the source code for my personal website. It's built wit
 ## Overview
 
 The website is structured to be clean, responsive, and user-friendly. It highlights my professional background, experience, and includes sections for portfolio projects and contact information.
+
+## Run project
+npm install react-scripts@5.0.1 --save
+
+npm start

@@ -8,7 +8,7 @@
     "url": "https://github.com/dinis-a/dinis-a.github.io.git"
   },
   "reactSnap": {
-  "timeout": 60000
+    "timeout": 60000
   },
   "engines": {
     "node": ">=16.x"
