@@ -6,7 +6,7 @@ EDUCATION:
   label: "Education"
   items:
     - period: "2007 — 2013"
-      institution: "Pavlov Saint Petersburg State Medical University"
+      institution: "Pavlov First Saint Petersburg State Medical University"
       description: "Specialist Degree in General Medicine"
     - period: "2013 — 2015"
       institution: "North-Western State Medical University named after I.I. Mechnikov"
@@ -25,21 +25,27 @@ EXPERIENCE:
     - period: "2011 — 2019"
       position: "Medical Worker"
       description: |
-        Worked as a doctor, emergency medical technician (EMT), and nurse. Acquired extensive experience in the field of medicine:
-          <br>
-          * 09/2018 – 11/2019: General Practitioner (Telemedicine). World Telehealth Company LLC, Hanover, Maryland, United States<br>
-          * 06/2013 – 08/2015: General Practitioner. City Medical and Social Center, St. Petersburg, Russia<br>
-          * 11/2010 – 03/2013: Nurse. Cardiovascular Surgery Department (10/2011 – 03/2013), Ophthalmology Department (11/2010 – 10/2011). St. Petersburg State Pavlov Medical University, St. Petersburg, Russia<br>
-          * 06/2011 – 08/2011: Paramedic. Ivanovo City Hospital, Ivanovo, Russia<br>
+        Worked as a doctor, emergency medical technician (EMT), and nurse. Acquired extensive experience in the field of medicine:<br>
+        * 09/2018 – 11/2019: General Practitioner (Telemedicine). World Telehealth Company LLC, Hanover, Maryland, United States<br>
+        * 06/2013 – 08/2015: General Practitioner. City Medical and Social Center, St. Petersburg, Russia<br>
+        * 11/2010 – 03/2013: Nurse. Cardiovascular Surgery Department (10/2011 – 03/2013), Ophthalmology Department (11/2010 – 10/2011). Pavlov First Saint Petersburg State Medical University, St. Petersburg, Russia<br>
+        * 06/2011 – 08/2011: Paramedic. Ivanovo City Hospital, Ivanovo, Russia<br>
     - period: "2018 — 2020"
       position: "World Telehealth Company LLC — CEO"
-      description: "Founded and developed a telemedicine company from scratch. Developed an ML model for detecting skin tumor diseases. Increased the number of employees to 9. Conducted over 300 telemedicine consultations for citizens of Chile and Mexico."
+      description: |
+        * Founded and developed a telemedicine company from scratch.<br>
+        * Developed an ML model for detecting skin tumor diseases.<br>
+        * Increased the number of employees to 9.<br>
+        * Conducted over 300 telemedicine consultations for citizens of Chile and Mexico.
     - period: "2020 — 2023"
       position: "Freelance — Data Scientist"
-      description: "Delivered data analysis, visualization, and predictive modeling solutions for clients.  Turned complex data into actionable insights to support decision-making."
+      description: "Delivered data analysis, visualization, and predictive modeling solutions for clients. Turned complex data into actionable insights to support decision-making."
     - period: "2023 — 2024"
       position: "ProgKids — Senior Data Analyst"
-      description: "Built a data analytics system from scratch. Developed a call monitoring system for sales managers using LLMs. Designed and implemented a comprehensive monitoring and alert system that reduced issue resolution time by 31% and minimized operational disruptions by 21%."
+      description: |
+        * Built a data analytics system from scratch.<br>
+        * Developed a call monitoring system for sales managers using LLMs.<br>
+        * Designed and implemented a comprehensive monitoring and alert system that reduced issue resolution time by 31% and minimized operational disruptions by 21%.
     - period: "2024 — Present"
       position: "VC — Lead Data Scientist"
       description: ""
