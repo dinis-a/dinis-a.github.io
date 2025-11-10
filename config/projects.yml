@@ -1,0 +1,12 @@
+HEADER:
+  label: "Portfolio"
+
+PROJECTS:
+  - title: "Skin Cancer Detection via Photo"
+    category: "Telegram bots"
+    image: "config/assets/projects/melanoma.jpg"
+    url: ""
+  - title: "AI Assistant Chatbot"
+    category: "Telegram bots"
+    image: "config/assets/projects/gemini.jpg"
+    url: ""
