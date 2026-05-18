@@ -1,5 +1,6 @@
 from datetime import datetime
 from typing import Any
+
 import yaml  # type: ignore
 from jinja2 import Environment, FileSystemLoader
 
