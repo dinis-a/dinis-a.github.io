@@ -1,9 +1,7 @@
 from datetime import datetime
 from typing import Any
-
 import yaml  # type: ignore
 from jinja2 import Environment, FileSystemLoader
-
 
 class Portfolio:
     def __init__(self):
@@ -41,7 +39,6 @@ class Portfolio:
         template = self.env.get_template(template_name)
         html_render = template.render(context)
         self.write_file(output_path, html_render)
-
 
 if __name__ == "__main__":
     portfolio = Portfolio()
