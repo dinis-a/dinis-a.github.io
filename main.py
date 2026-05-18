@@ -40,6 +40,7 @@ class Portfolio:
         html_render = template.render(context)
         self.write_file(output_path, html_render)
 
+
 if __name__ == "__main__":
     portfolio = Portfolio()
     context = {key: portfolio.load_config_file(key) for key in portfolio.config_files}
