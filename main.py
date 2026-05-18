@@ -3,6 +3,7 @@ from typing import Any
 import yaml  # type: ignore
 from jinja2 import Environment, FileSystemLoader
 
+
 class Portfolio:
     def __init__(self):
         self.config_files = {
