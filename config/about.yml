@@ -1,0 +1,58 @@
+HEADER:
+  label: "About me"
+
+PRESENTATION:
+  description: |
+    I'm Dinis. I am a Data Scientist with over 5 years of experience, specializing in BI analytics, data analysis, and machine learning. My expertise spans various industries, including healthcare, where I led telemedicine initiatives and developed machine learning models to detect skin cancer.
+    
+    In addition to data science, I have a solid foundation in medicine, which adds unique value to my work in analyzing and improving healthcare data.
+DOING:
+  enabled: true
+  label: "What I'm doing"
+  items:
+    - title: "Data Analysis"
+      icon: "config/assets/icons/analysis.svg"
+      description: "Professional analysis and interpretation of data to drive business insights and informed decision-making."
+    - title: "Machine learning"
+      icon: "config/assets/icons/ai.svg"
+      description: "Designing, training, and deploying machine learning models to solve complex problems and extract actionable insights."
+    - title: "DevOps"
+      icon: "config/assets/icons/chip.svg"
+      description: "Implementing and managing CI/CD pipelines, infrastructure automation, and scalable deployment processes."
+
+SKILLS:
+  enabled: true
+  label: "Soft Skills"
+  items:
+    - title: "Fast Learner"
+      icon: "config/assets/icons/bolt.svg"
+      description: "I have the ability to quickly acquire new knowledge and adapt to changing technological environments."
+    - title: "Teamwork"
+      icon: "config/assets/icons/user.svg"
+      description: "I collaborate effectively in multidisciplinary projects and communicate clearly with team members."
+    - title: "Problem Solving"
+      icon: "config/assets/icons/gear.svg"
+      description: "I am creative and efficient in identifying and solving technical problems."
+
+TECHNOLOGIES:
+  enabled: true
+  label: "Tech Experience"
+  items:
+    - title: "Python"
+      icon: "config/assets/icons/python.svg"
+    - title: "SQL"
+      icon: "config/assets/icons/sql.svg"
+    - title: "Spark"
+      icon: "config/assets/icons/spark.svg"
+    - title: "PyTorch"
+      icon: "config/assets/icons/pytorch.svg"
+    - title: "Git"
+      icon: "config/assets/icons/git.svg"
+    - title: "Linux"
+      icon: "config/assets/icons/linux.svg"
+    - title: "Docker"
+      icon: "config/assets/icons/docker-mark-blue.svg"
+    - title: "MLFlow"
+      icon: "config/assets/icons/mlflow.svg"
+    - title: "Airflow"
+      icon: "config/assets/icons/airflow.svg"

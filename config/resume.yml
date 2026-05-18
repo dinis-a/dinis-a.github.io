@@ -1,0 +1,136 @@
+HEADER:
+  label: "Resume"
+
+EDUCATION:
+  enabled: true
+  label: "Education"
+  items:
+    - period: "2007 — 2013"
+      institution: "Pavlov First Saint Petersburg State Medical University"
+      description: "Specialist Degree in General Medicine"
+    - period: "2013 — 2015"
+      institution: "North-Western State Medical University named after I.I. Mechnikov"
+      description: "Residency in Neurosurgery"
+    - period: "2024 — 2027"
+      institution: "RosNOU"
+      description: "Master’s degree in Computer Science with a specialization in Artificial Intelligence Systems"
+
+EXPERIENCE:
+  enabled: true
+  label: "Experience"
+  items:
+    - period: "2015 — 2018"
+      position: "Freelance — Scientific Writer"
+      description: "Authored 193 scientific articles in the fields of medicine, biology, and psychology."
+    - period: "2011 — 2019"
+      position: "Medical Worker"
+      description: |
+        Worked as a doctor, emergency medical technician, and nurse. Acquired extensive experience in the field of medicine:<br>
+        * 09/2018 – 11/2019: General Practitioner (Telemedicine). World Telehealth Company LLC, Hanover, Maryland, United States<br>
+        * 06/2013 – 08/2015: General Practitioner. City Medical and Social Center, St. Petersburg, Russia<br>
+        * 06/2011 – 08/2011: Emergency medical technician. Ivanovo City Hospital, Ivanovo, Russia<br>
+        * 11/2010 – 03/2013: Nurse. Cardiovascular Surgery Department (10/2011 – 03/2013), Ophthalmology Department (11/2010 – 10/2011). Pavlov First Saint Petersburg State Medical University, St. Petersburg, Russia<br>
+    - period: "2018 — 2020"
+      position: "World Telehealth Company LLC — CEO"
+      description: |
+        * Founded and developed a telemedicine company from scratch.<br>
+        * Developed an ML model for detecting skin tumor diseases.<br>
+        * Conducted over 300 telemedicine consultations for citizens of Chile and Mexico.
+    - period: "2020 — 2023"
+      position: "Freelance — Data Scientist"
+      description: "Delivered data analysis, visualization, and predictive modeling solutions for clients. Turned complex data into actionable insights to support decision-making."
+    - period: "2023 — 2024"
+      position: "ProgKids — Senior Data Analyst"
+      description: |
+        * Built a data analytics system from scratch.<br>
+        * Developed an LLM-based system to monitor sales managers' outgoing calls.<br>
+        * Developed a model for matching teachers to students using machine learning methods.
+    - period: "2024 — Present"
+      position: "Beeline — Lead Data Scientist"
+      description: |
+        * Received recognition from the Deputy General Director for rapidly automating the selection of the optimal subscription fee in the context of price increases.<br>
+        * Received recognition from the Deputy General Director for automating analytical ad-hoc tasks using AI.
+
+COURSES:
+  enabled: true
+  label: "Courses"
+  items:
+    - period: "2014"
+      institution: "Medtronic"
+      description: "Practical Aspects of intraoperative neuromonitoring application in neurosurgery"
+    - period: "2018"
+      institution: "Black Sea Yacht School"
+      description: "VHF Marine Communications Master SRC, International Bareboat Skipper Sail"
+    - period: "2020"
+      institution: "Ufa University of Science and Technology"
+      description: "Machine Learning for Biomedical Data Processing"
+    - period: "2020"
+      institution: "Academy of Professional Standards"
+      description: "Qualification upgrading course (specialty “Neurosurgery”)"
+    - period: "2022"
+      institution: "Yandex"
+      description: "Data Science Specialist"
+    - period: "2022"
+      institution: "Tomsk State University"
+      description: "Data Analyst"
+    - period: "2025"
+      institution: "Karpov Courses"
+      description: "Data Science Training Simulator"
+
+ADDITIONAL:
+  enabled: true
+  label: "Additional"
+  items:
+    - period: "2010"
+      institution: "Scientific conference"
+      description: "III degree diploma in scientific conference “Current issues of experimental and clinical medicine – 2010”"
+    - period: "2018"
+      institution: "Instituto Cervantes"
+      description: "Diploma of Spanish as a Foreign Language, Level C1"
+
+LANGUAGES:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: true
+  label: "Languages"
+  items:
+    - language: "🇺🇸 English - Advanced"
+      proficiency: "75%"
+    - language: "🇪🇸 Spanish - Proficient"
+      proficiency: "90%"
+    - language: "🇷🇺 Russian - Native speaker"
+      proficiency: "100%"
+    - language: "🇸🇦 Arabic - Elementary / Communicative"
+      proficiency: "30%"
+
+SKILLS:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: true
+  label: "My Skills"
+  items:
+    - skill: "Python"
+      proficiency: "100%"
+    - skill: "SQL"
+      proficiency: "90%"
+    - skill: "PyTorch"
+      proficiency: "80%"
+    - skill: "PySpark"
+      proficiency: "90%"
+    - skill: "Docker, Docker Swarm"
+      proficiency: "80%"
+    - skill: "Statistical analysis"
+      proficiency: "90%"
+    - skill: "Airflow"
+      proficiency: "70%"
+    - skill: "MLFlow"
+      proficiency: "70%"
+    - skill: "Git"
+      proficiency: "80%"
+    - skill: "Bash"
+      proficiency: "70%"
+    - skill: "Hadoop"
+      proficiency: "50%"
+    - skill: "C++ (pybind11)"
+      proficiency: "20%"
+

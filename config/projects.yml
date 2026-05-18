@@ -1,0 +1,71 @@
+HEADER:
+  label: "Portfolio"
+
+PROJECTS:
+  - title: "Skin Cancer Detection via Photo"
+    category: "Telegram bots"
+    description: |
+      <br>A TensorFlow-powered Telegram bot that analyzes user-uploaded skin photos and returns diagnostic predictions. 
+      Built with aiogram, Dockerized for easy deployment.<br><br>
+      Stack: Python, TensorFlow, aiogram, Pillow, NumPy, Docker.<br><br>
+    image: "config/assets/projects/melanoma.jpg"
+    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fskin_ai%0A%0AThank%20you%21"
+  - title: "Chinese Shorts Generator"
+    category: "Content creation"
+    description: |
+      <br>An automated video creation tool that generates YouTube Shorts for Chinese language learning. 
+      Combines text-to-speech (gTTS), pinyin romanization, and video editing (MoviePy) 
+      to produce engaging educational content with automatic YouTube uploads via YouTube API.<br><br>
+      Stack: Python, MoviePy, gTTS, YouTube API, PostgreSQL, Google Gemini API, Docker.<br><br>
+    image: "config/assets/projects/youtube.jpg"
+    url: "https://www.youtube.com/@prosto_kitayskiy/shorts"
+  - title: "Natural Language SQL Generator"
+    category: "Web App"
+    description: |
+      <br>A web app that enables non-SQL users to perform data analytics through natural language questions. 
+      Data is ingested from HDFS via PySpark and Airflow into ClickHouse, while ChromaDB stores table schemas 
+      and relevant SQL scripts as vector embeddings. 
+      User queries trigger context retrieval from ChromaDB, which is then passed to a locally deployed Qwen LLM 
+      to generate SQL. The result is executed in ClickHouse and returned to the web UI.<br><br>
+      Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker.<br><br>
+    image: "config/assets/projects/sqlfree.png"
+    url: "https://t.me/dinis_n"
+  - title: "AI Assistant Chatbot"
+    category: "Telegram bots"
+    description: |
+      <br>A Telegram bot that provides access to Google's Gemini AI models directly in your chat. 
+      Supports multi-turn conversations, model switching, and markdown formatting. 
+      Built with aiogram, google-generativeai, and includes smart message splitting for long responses.<br><br>
+      Stack: Python, aiogram, Gemini API, Docker.<br><br>
+    image: "config/assets/projects/gemini.jpg"
+    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fnew_gemini_bot%0A%0AThank%20you%21"
+  - title: "VoiceAI"
+    category: "Web App"
+    description: |
+      <br>An AI voice assistant for job interview preparation, powered by Google's Gemini LLM. 
+      Supports natural conversational interactions with TTS output via Microsoft EdgeTTS. 
+      Built with FastAPI, it simulates realistic interview scenarios (e.g., Data Scientist role) through voice-based Q&A.<br><br>
+      Stack: Python, FastAPI, Google Gemini API, EdgeTTS, Docker.<br><br>
+    image: "config/assets/projects/voiceai.png"
+    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fgemini_job_interview%0A%0AThank%20you%21"
+  - title: "Social Media Auto Poster"
+    category: "Content creation"
+    description: |
+      <br>A cross-platform bot that generates and auto-publishes posts for Telegram and Instagram. 
+      Uses Google Gemini AI for content creation, web scraping (BeautifulSoup) for topic research, 
+      and image/video tools (Pillow, MoviePy) for media generation. 
+      Automates posting via aiogram (Telegram) and instagrapi (Instagram). <br><br>
+      Stack: Python, Gemini API, aiogram, instagrapi, MoviePy, Telegraph, Docker.<br><br>
+    image: "config/assets/projects/autotgposts.jpg"
+    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fauto_tg_posts%0A%0AThank%20you%21"
+  - title: "HeadHunter Job Scraper"
+    category: "Parsing"
+    description: |
+      <br>An automated job search tool that scrapes HeadHunter using Selenium with stealth techniques to avoid detection. 
+      Containerized with Docker for reliable deployment. 
+      Fetches real-time job listings with rotating user agents.<br><br>
+      Stack: Python, Selenium, selenium-stealth, fake-useragent, Docker.<br><br>
+    image: "config/assets/projects/scraper.png"
+    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fhh_parsing%0A%0AThank%20you%21"
+
+  
