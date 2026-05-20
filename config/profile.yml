@@ -10,7 +10,7 @@ USER:
   role: "Data Scientist"
   name: "Dinis Akulov"
   username: "dinis-a" 
-  avatar: "config/assets/avatars/my-avatar.png"
+  avatar: "config/assets/avatars/my-avatar.jpg"
 
 INFO:
   - label: "Email"

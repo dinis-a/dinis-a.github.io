@@ -8,7 +8,7 @@ PROJECTS:
       <br>A JSON repair engine built for LLM-generated output. Fixes trailing commas, Python literals (True/False/None), unquoted keys, single quotes, comments, missing/extra commas, and unterminated structures. Returns structured diagnostics with confidence scoring.<br><br>
       Install: <code>pip install json-repair-engine</code><br>
       Stack: Python, zero dependencies.<br><br>
-    image: "config/assets/projects/json-repair.png"
+    image: "config/assets/projects/json-repair.jpg"
     url: "https://pypi.org/project/json-repair-engine/"
   - title: "Skin Cancer Detection via Photo"
     category: "Telegram bots"
@@ -36,7 +36,7 @@ PROJECTS:
       User queries trigger context retrieval from ChromaDB, which is then passed to a locally deployed Qwen LLM 
       to generate SQL. The result is executed in ClickHouse and returned to the web UI.<br><br>
       Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker.<br><br>
-    image: "config/assets/projects/sqlfree.png"
+    image: "config/assets/projects/sqlfree.jpg"
     url: "https://t.me/dinis_n"
   - title: "AI Assistant Chatbot"
     category: "Telegram bots"
@@ -54,7 +54,7 @@ PROJECTS:
       Supports natural conversational interactions with TTS output via Microsoft EdgeTTS. 
       Built with FastAPI, it simulates realistic interview scenarios (e.g., Data Scientist role) through voice-based Q&A.<br><br>
       Stack: Python, FastAPI, Google Gemini API, EdgeTTS, Docker.<br><br>
-    image: "config/assets/projects/voiceai.png"
+    image: "config/assets/projects/voiceai.jpg"
     url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fgemini_job_interview%0A%0AThank%20you%21"
   - title: "Social Media Auto Poster"
     category: "Content creation"
@@ -73,7 +73,7 @@ PROJECTS:
       Containerized with Docker for reliable deployment. 
       Fetches real-time job listings with rotating user agents.<br><br>
       Stack: Python, Selenium, selenium-stealth, fake-useragent, Docker.<br><br>
-    image: "config/assets/projects/scraper.png"
+    image: "config/assets/projects/scraper.jpg"
     url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fhh_parsing%0A%0AThank%20you%21"
 
   
