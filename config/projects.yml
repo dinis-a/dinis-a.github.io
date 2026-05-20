@@ -2,6 +2,14 @@ HEADER:
   label: "Portfolio"
 
 PROJECTS:
+  - title: "JSON Repair Engine"
+    category: "Developer tools"
+    description: |
+      <br>A JSON repair engine built for LLM-generated output. Fixes trailing commas, Python literals (True/False/None), unquoted keys, single quotes, comments, missing/extra commas, and unterminated structures. Returns structured diagnostics with confidence scoring.<br><br>
+      Install: <code>pip install json-repair-engine</code><br>
+      Stack: Python, zero dependencies.<br><br>
+    image: "config/assets/projects/json-repair.png"
+    url: "https://pypi.org/project/json-repair-engine/"
   - title: "Skin Cancer Detection via Photo"
     category: "Telegram bots"
     description: |
