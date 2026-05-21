@@ -17,7 +17,7 @@ PROJECTS:
       Built with aiogram, Dockerized for easy deployment.<br><br>
       Stack: Python, TensorFlow, aiogram, Pillow, NumPy, Docker.<br><br>
     image: "config/assets/projects/melanoma.jpg"
-    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fskin_ai%0A%0AThank%20you%21"
+    url: "https://github.com/dinis-a/skin_ai"
   - title: "Chinese Shorts Generator"
     category: "Content creation"
     description: |
