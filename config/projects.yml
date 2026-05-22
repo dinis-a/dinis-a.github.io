@@ -27,6 +27,15 @@ PROJECTS:
       Stack: Python, MoviePy, gTTS, YouTube API, PostgreSQL, Google Gemini API, Docker.<br><br>
     image: "config/assets/projects/youtube.jpg"
     url: "https://www.youtube.com/@prosto_kitayskiy/shorts"
+  - title: "AI Assistant Chatbot"
+    category: "Telegram bots"
+    description: |
+      <br>A Telegram bot that provides access to Google's Gemini AI models directly in your chat. 
+      Supports multi-turn conversations, model switching, and markdown formatting. 
+      Built with aiogram, google-generativeai, and includes smart message splitting for long responses.<br><br>
+      Stack: Python, aiogram, Gemini API, Docker.<br><br>
+    image: "config/assets/projects/gemini.jpg"
+    url: "https://github.com/dinis-a/gemini_telegram_bot"
   - title: "Natural Language SQL Generator"
     category: "Web App"
     description: |
@@ -38,24 +47,6 @@ PROJECTS:
       Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker.<br><br>
     image: "config/assets/projects/sqlfree.jpg"
     url: "https://t.me/dinis_n"
-  - title: "AI Assistant Chatbot"
-    category: "Telegram bots"
-    description: |
-      <br>A Telegram bot that provides access to Google's Gemini AI models directly in your chat. 
-      Supports multi-turn conversations, model switching, and markdown formatting. 
-      Built with aiogram, google-generativeai, and includes smart message splitting for long responses.<br><br>
-      Stack: Python, aiogram, Gemini API, Docker.<br><br>
-    image: "config/assets/projects/gemini.jpg"
-    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fnew_gemini_bot%0A%0AThank%20you%21"
-  - title: "VoiceAI"
-    category: "Web App"
-    description: |
-      <br>An AI voice assistant for job interview preparation, powered by Google's Gemini LLM. 
-      Supports natural conversational interactions with TTS output via Microsoft EdgeTTS. 
-      Built with FastAPI, it simulates realistic interview scenarios (e.g., Data Scientist role) through voice-based Q&A.<br><br>
-      Stack: Python, FastAPI, Google Gemini API, EdgeTTS, Docker.<br><br>
-    image: "config/assets/projects/voiceai.jpg"
-    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fgemini_job_interview%0A%0AThank%20you%21"
   - title: "Social Media Auto Poster"
     category: "Content creation"
     description: |
