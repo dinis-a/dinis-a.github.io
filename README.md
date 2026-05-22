@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License MIT">
-  <img src="https://img.shields.io/badge/version-0.2.0-orange.svg" alt="Version 0.2.0">
+  <img src="https://img.shields.io/badge/version-0.3.0-orange.svg" alt="Version 0.3.0">
 </p>
 
 <p align="center">
@@ -60,12 +60,6 @@ poetry shell
 python3 watch.py
 ```
 
-Or use the Makefile:
-
-```bash
-make setup    # Full setup + launch watcher
-make watch    # Run watcher (if already set up)
-```
 
 ### Build
 
