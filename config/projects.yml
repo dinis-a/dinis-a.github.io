@@ -3,7 +3,7 @@ HEADER:
 
 PROJECTS:
   - title: "JSON Repair Engine"
-    category: "Developer tools"
+    category: "LLM Tools"
     description: |
       <br>A JSON repair engine built for LLM-generated output. Fixes trailing commas, Python literals (True/False/None), unquoted keys, single quotes, comments, missing/extra commas, and unterminated structures. Returns structured diagnostics with confidence scoring.<br><br>
       Install: <code>pip install json-repair-engine</code><br>
@@ -11,15 +11,15 @@ PROJECTS:
     image: "config/assets/projects/json-repair.jpg"
     url: "https://pypi.org/project/json-repair-engine/"
   - title: "Skin Cancer Detection via Photo"
-    category: "Telegram bots"
+    category: "CV"
     description: |
-      <br>A TensorFlow-powered Telegram bot that analyzes user-uploaded skin photos and returns diagnostic predictions. 
+      <br>A PyTorch-powered Telegram bot that analyzes user-uploaded skin photos and returns diagnostic predictions. 
       Built with aiogram, Dockerized for easy deployment.<br><br>
-      Stack: Python, TensorFlow, aiogram, Pillow, NumPy, Docker.<br><br>
+      Stack: Python, PyTorch, aiogram, Pillow, NumPy, Docker.<br><br>
     image: "config/assets/projects/melanoma.jpg"
     url: "https://github.com/dinis-a/skin_ai"
   - title: "Chinese Shorts Generator"
-    category: "Content creation"
+    category: "LLM Apps"
     description: |
       <br>An automated video creation tool that generates YouTube Shorts for Chinese language learning. 
       Combines text-to-speech (gTTS), pinyin romanization, and video editing (MoviePy) 
@@ -28,7 +28,7 @@ PROJECTS:
     image: "config/assets/projects/youtube.jpg"
     url: "https://www.youtube.com/@prosto_kitayskiy/shorts"
   - title: "AI Assistant Chatbot"
-    category: "Telegram bots"
+    category: "LLM Apps"
     description: |
       <br>A Telegram bot that provides access to Google's Gemini AI models directly in your chat. 
       Supports multi-turn conversations, model switching, and markdown formatting. 
@@ -37,7 +37,7 @@ PROJECTS:
     image: "config/assets/projects/gemini.jpg"
     url: "https://github.com/dinis-a/gemini_telegram_bot"
   - title: "Natural Language SQL Generator"
-    category: "Web App"
+    category: "RAG"
     description: |
       <br>A web app that enables non-SQL users to perform data analytics through natural language questions. 
       Data is ingested from HDFS via PySpark and Airflow into ClickHouse, while ChromaDB stores table schemas 
