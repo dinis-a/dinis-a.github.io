@@ -46,25 +46,6 @@ PROJECTS:
       to generate SQL. The result is executed in ClickHouse and returned to the web UI.<br><br>
       Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker.<br><br>
     image: "config/assets/projects/sqlfree.jpg"
-    url: "https://t.me/dinis_n"
-  - title: "Social Media Auto Poster"
-    category: "Content creation"
-    description: |
-      <br>A cross-platform bot that generates and auto-publishes posts for Telegram and Instagram. 
-      Uses Google Gemini AI for content creation, web scraping (BeautifulSoup) for topic research, 
-      and image/video tools (Pillow, MoviePy) for media generation. 
-      Automates posting via aiogram (Telegram) and instagrapi (Instagram). <br><br>
-      Stack: Python, Gemini API, aiogram, instagrapi, MoviePy, Telegraph, Docker.<br><br>
-    image: "config/assets/projects/autotgposts.jpg"
-    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fauto_tg_posts%0A%0AThank%20you%21"
-  - title: "HeadHunter Job Scraper"
-    category: "Parsing"
-    description: |
-      <br>An automated job search tool that scrapes HeadHunter using Selenium with stealth techniques to avoid detection. 
-      Containerized with Docker for reliable deployment. 
-      Fetches real-time job listings with rotating user agents.<br><br>
-      Stack: Python, Selenium, selenium-stealth, fake-useragent, Docker.<br><br>
-    image: "config/assets/projects/scraper.jpg"
-    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis%21%0A%0ACould%20you%20please%20share%20the%20code%20from%20this%20repository%3F%0Ahttps%3A%2F%2Fgithub.com%2Fdinis-a%2Fhh_parsing%0A%0AThank%20you%21"
-
+    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis!%0A%0ACould%20you%20please%20share%20the%20code%20from%20the%20project%20%22Natural%20Language%20SQL%20Generator%22%3F%0A%0AThank%20you!"
+  
   
