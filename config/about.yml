@@ -3,9 +3,8 @@ HEADER:
 
 PRESENTATION:
   description: |
-    I'm Dinis. I am a Data Scientist with over 5 years of experience, specializing in BI analytics, data analysis, and machine learning. My expertise spans various industries, including healthcare, where I led telemedicine initiatives and developed machine learning models to detect skin cancer.
-    
-    In addition to data science, I have a solid foundation in medicine, which adds unique value to my work in analyzing and improving healthcare data.
+    Data Scientist with over 5 years of experience in data analysis and machine learning, applying modern ML approaches to solve practical business problems across different industries. Focused on building effective, real-world solutions that deliver measurable value.
+
 DOING:
   enabled: true
   label: "What I'm doing"
