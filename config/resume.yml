@@ -50,7 +50,7 @@ EXPERIENCE:
       description: |
         * Received recognition from the Deputy General Director for rapidly automating the selection of the optimal subscription fee in the context of price increases.<br>
         * Received recognition from the Deputy General Director for automating analytical ad-hoc tasks using AI.<br>
-        * Developed and deployed a recommendation system that matched clients with suitable tariffs from the archived tariff pool, enabling personalized retention offers without manual effort.
+        * Built a recommendation engine that converted clients from legacy tariffs to current offerings through individualized plan selection, eliminating manual intervention.
 
 COURSES:
   enabled: true
