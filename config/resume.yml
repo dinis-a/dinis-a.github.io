@@ -51,16 +51,13 @@ EXPERIENCE:
         * Received recognition from the Deputy General Director for rapidly automating the selection of the optimal subscription fee in the context of price increases.<br>
         * Received recognition from the Deputy General Director for automating analytical ad-hoc tasks using AI.<br>
         * Built a recommendation engine that converted clients from legacy tariffs to current offerings through individualized plan selection, eliminating manual intervention.
-    - period: "2026, June — Present"
+    - period: "2026, February — Present"
       position: "Freelance — Data Scientist"
       description: |
         * Machine Learning model development<br>
         * Large Language Model (LLM) applications<br>
         * Retrieval-Augmented Generation (RAG) systems<br>
         * Data analysis and predictive modeling<br>
-        * Recommendation systems<br>
-        * Computer Vision solutions<br>
-        * Data engineering and analytics
 
 COURSES:
   enabled: true
