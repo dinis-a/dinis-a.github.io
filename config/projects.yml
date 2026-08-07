@@ -47,5 +47,12 @@ PROJECTS:
       Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker.<br><br>
     image: "config/assets/projects/sqlfree.jpg"
     url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis!%0A%0ACould%20you%20please%20share%20the%20code%20from%20the%20project%20%22Natural%20Language%20SQL%20Generator%22%3F%0A%0AThank%20you!"
-  
-  
+  - title: "QLoRA Text-to-SQL"
+    category: "LLM Tools"
+    description: |
+      <br>Fine-tune a 7B-parameter LLM for Text-to-SQL on the Spider dataset using QLoRA — fits on a free T4 GPU.
+      Clean Python package with lazy loading, data loaders, prompt formatting, and evaluation metrics.
+      Includes Kaggle notebook with MLflow checkpointing and HuggingFace Hub upload.<br><br>
+      Stack: Python, PyTorch, HuggingFace PEFT, bitsandbytes, Spider dataset.<br><br>
+    image: "config/assets/projects/qlora.jpg"
+    url: "https://github.com/dinis-a/qlora-text2sql"
