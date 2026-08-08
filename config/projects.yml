@@ -56,3 +56,12 @@ PROJECTS:
       Stack: Python, PyTorch, HuggingFace PEFT, bitsandbytes, Spider dataset.<br><br>
     image: "config/assets/projects/qlora.jpg"
     url: "https://github.com/dinis-a/qlora-text2sql"
+  - title: "Skin Cancer CNN Classifier"
+    category: "CV"
+    description: |
+      <br>A CNN for classifying dermoscopic images into 9 skin lesion categories using EfficientNet-B0 transfer learning.
+      Trained on the ISIC dataset with class weights and heavy augmentation. Comes with a FastAPI inference server,
+      Docker support, and a Kaggle notebook with MLflow experiment tracking and GradCAM visualizations.<br><br>
+      Stack: Python, PyTorch, FastAPI, Docker, MLflow, EfficientNet.<br><br>
+    image: "config/assets/projects/skin-cnn.jpg"
+    url: "https://github.com/dinis-a/skin-cancer-cnn"
