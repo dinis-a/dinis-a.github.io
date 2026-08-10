@@ -40,7 +40,11 @@
     <ol class="timeline-list">
       {% for item in resume.EDUCATION["items"] | reverse %}
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">{{item.institution}}</h4>
+        <h4 class="h4 timeline-item-title">
+          {% if item.link %}<a href="{{item.link}}" target="_blank">{% endif %}
+          {{item.institution}}
+          {% if item.link %}</a>{% endif %}
+        </h4>
         <span>{{item.period}}</span>
         <p class="timeline-text">
           {{item.description}}
@@ -63,7 +67,11 @@
     <ol class="timeline-list">
       {% for item in resume.COURSES["items"] | reverse %}
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">{{item.institution}}</h4>
+        <h4 class="h4 timeline-item-title">
+          {% if item.link %}<a href="{{item.link}}" target="_blank">{% endif %}
+          {{item.institution}}
+          {% if item.link %}</a>{% endif %}
+        </h4>
         <span>{{item.period}}</span>
         <p class="timeline-text">
           {{item.description}}
@@ -86,7 +94,11 @@
     <ol class="timeline-list">
       {% for item in resume.ADDITIONAL["items"] | reverse %}
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">{{item.institution}}</h4>
+        <h4 class="h4 timeline-item-title">
+          {% if item.link %}<a href="{{item.link}}" target="_blank">{% endif %}
+          {{item.institution}}
+          {% if item.link %}</a>{% endif %}
+        </h4>
         <span>{{item.period}}</span>
         <p class="timeline-text">
           {{item.description}}
