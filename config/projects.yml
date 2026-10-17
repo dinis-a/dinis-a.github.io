@@ -10,7 +10,7 @@ PROJECTS:
       and relevant SQL scripts as vector embeddings. 
       User queries trigger context retrieval from ChromaDB, which is then passed to a locally deployed Qwen LLM 
       to generate SQL. The result is executed in ClickHouse and returned to the web UI.<br><br>
-      Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker.<br><br>
+      Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker, Nginx.<br><br>
     image: "config/assets/projects/sqlfree.jpg"
     url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis!%0A%0ACould%20you%20please%20share%20the%20code%20from%20the%20project%20%22Natural%20Language%20SQL%20Generator%22%3F%0A%0AThank%20you!"
   - title: "QLoRA Text-to-SQL"
@@ -65,3 +65,29 @@ PROJECTS:
       Stack: Python, aiogram, Gemini API, Docker.<br><br>
     image: "config/assets/projects/gemini.jpg"
     url: "https://github.com/dinis-a/gemini_telegram_bot"
+  - title: "Stylometric AI Text Detector"
+    category: "NLP"
+    description: |
+      <br>A Python package that tells AI-generated text from human-written text using 8 stylometric features
+      (character, word and sentence statistics, punctuation, capitalization) and a Random Forest classifier.
+      Trained on ~487k labeled texts, it reaches 96% accuracy on a held-out test split; the model is pulled from
+      the Hugging Face Hub on first use.<br><br>
+      Install: <code>pip install stylometric-ai-detector</code><br>
+      Stack: Python, scikit-learn, Hugging Face Hub, pytest, GitHub Actions.<br><br>
+    image: "config/assets/projects/stylometric-ai-detector.jpg"
+    url: "https://pypi.org/project/stylometric-ai-detector/"
+  - title: "Russian Stylometry Toolkit"
+    category: "NLP"
+    description: |
+      <br>An interpretable toolkit for detecting machine-generated Russian text: 66 stylometric features (typography,
+      lexicon, syntax, pymorphy3 morphology), a scikit-learn-compatible vectorizer, a CLI, and a classifier that
+      explains every decision. Reaches 0.883 accuracy on a topic-disjoint LLMTrace test split (0.751 for the
+      8-feature baseline) with a 1.2 MB model that runs on CPU.<br><br>
+      Transformers: fine-tuned rubert-base-cased (178M parameters, 238k texts) to 0.953 accuracy and compared it
+      with a BERT + stylometry hybrid and a stacking ensemble. Adding the 66 features to the
+      transformer's outputs gives 1.4–2.6 points of macro-F1 for attributing a text to a human or one of 14 LLM
+      families.<br><br>
+      Install: <code>pip install ru-stylometry</code><br>
+      Stack: Python, PyTorch, Hugging Face Transformers, scikit-learn, pymorphy3, pytest, GitHub Actions.<br><br>
+    image: "config/assets/projects/ru-stylometry.jpg"
+    url: "https://pypi.org/project/ru-stylometry/"
