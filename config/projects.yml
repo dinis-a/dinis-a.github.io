@@ -44,12 +44,9 @@ PROJECTS:
     description: |
       <br>An interpretable toolkit for detecting machine-generated Russian text: 66 stylometric features (typography,
       lexicon, syntax, pymorphy3 morphology), a scikit-learn-compatible vectorizer, a CLI, and a classifier that
-      explains every decision. Reaches 0.883 accuracy on a topic-disjoint LLMTrace test split (0.751 for the
-      8-feature baseline) with a 1.2 MB model that runs on CPU.<br><br>
-      Transformers: fine-tuned rubert-base-cased (178M parameters, 238k texts) to 0.953 accuracy and compared it
-      with a BERT + stylometry hybrid and a stacking ensemble. Adding the 66 features to the
-      transformer's outputs gives 1.4–2.6 points of macro-F1 for attributing a text to a human or one of 14 LLM
-      families.<br><br>
+      explains every decision. Reaches 0.883 accuracy on a topic-disjoint test split with a 1.2 MB model that
+      runs on CPU; a fine-tuned rubert-base-cased gets 0.953, and adding the features to its outputs gives
+      1.4–2.6 points of macro-F1 for attributing a text to a human or one of 14 LLM families.<br><br>
       Install: <code>pip install ru-stylometry</code><br>
       Stack: Python, PyTorch, Hugging Face Transformers, scikit-learn, pymorphy3, pytest, GitHub Actions.<br><br>
     image: "config/assets/projects/ru-stylometry.jpg"
