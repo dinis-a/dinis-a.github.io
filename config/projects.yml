@@ -51,14 +51,6 @@ PROJECTS:
       Stack: Python, PyTorch, Hugging Face Transformers, scikit-learn, pymorphy3, pytest, GitHub Actions.<br><br>
     image: "config/assets/projects/ru-stylometry.jpg"
     url: "https://pypi.org/project/ru-stylometry/"
-  - title: "Skin Cancer Detection via Photo"
-    category: "CV"
-    description: |
-      <br>A PyTorch-powered Telegram bot that analyzes user-uploaded skin photos and returns diagnostic predictions. 
-      Built with aiogram, Dockerized for easy deployment.<br><br>
-      Stack: Python, PyTorch, aiogram, Pillow, NumPy, Docker.<br><br>
-    image: "config/assets/projects/melanoma.jpg"
-    url: "https://github.com/dinis-a/skin_ai"
   - title: "Stylometric AI Text Detector"
     category: "NLP"
     description: |
@@ -70,6 +62,14 @@ PROJECTS:
       Stack: Python, scikit-learn, Hugging Face Hub, pytest, GitHub Actions.<br><br>
     image: "config/assets/projects/stylometric-ai-detector.jpg"
     url: "https://pypi.org/project/stylometric-ai-detector/"
+  - title: "Skin Cancer Detection via Photo"
+    category: "CV"
+    description: |
+      <br>A PyTorch-powered Telegram bot that analyzes user-uploaded skin photos and returns diagnostic predictions. 
+      Built with aiogram, Dockerized for easy deployment.<br><br>
+      Stack: Python, PyTorch, aiogram, Pillow, NumPy, Docker.<br><br>
+    image: "config/assets/projects/melanoma.jpg"
+    url: "https://github.com/dinis-a/skin_ai"
   - title: "Chinese Shorts Generator"
     category: "LLM Apps"
     description: |
