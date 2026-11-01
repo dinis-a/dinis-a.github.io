@@ -88,3 +88,16 @@ PROJECTS:
       Stack: Python, aiogram, Gemini API, Docker.<br><br>
     image: "config/assets/projects/gemini.jpg"
     url: "https://github.com/dinis-a/gemini_telegram_bot"
+  - title: "AB Calc: A/B Test Calculator"
+    category: "Statistics"
+    description: |
+      <br>An Android app for planning and analyzing A/B tests (the same code also runs on desktop and web). It sizes the
+      test and control groups from baseline conversion, minimum detectable effect, traffic split, significance and
+      power, then checks finished experiments with Pearson's chi-square, Fisher's exact and Welch's t-tests plus a
+      sample-ratio-mismatch check. The statistics are pure Python (no scipy), verified against mpmath and exact
+      fractions; the UI is in Russian and English. GitHub Actions runs the tests and builds the APK, and a script
+      publishes updates to RuStore.<br><br>
+      Available on: RuStore (Android)<br>
+      Stack: Python, Flet, GitHub Actions, RuStore API.<br><br>
+    image: "config/assets/projects/abcalc.jpeg"
+    url: "https://www.rustore.ru/catalog/app/com.flet.ab_calc_andorid"
