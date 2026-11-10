@@ -3,7 +3,7 @@ HEADER:
 
 PROJECTS:
   - title: "QLoRA Text-to-SQL"
-    category: "LLM Tools"
+    category: "LLM"
     description: |
       <br>Fine-tune a 7B-parameter LLM for Text-to-SQL on the Spider dataset using QLoRA — fits on a free T4 GPU.
       Clean Python package with lazy loading, data loaders, prompt formatting, and evaluation metrics.
@@ -12,7 +12,7 @@ PROJECTS:
     image: "config/assets/projects/qlora.jpg"
     url: "https://github.com/dinis-a/qlora-text2sql"
   - title: "Natural Language SQL Generator"
-    category: "RAG"
+    category: "LLM"
     description: |
       <br>A web app that enables non-SQL users to perform data analytics through natural language questions. 
       Data is ingested from HDFS via PySpark and Airflow into ClickHouse, while ChromaDB stores table schemas 
@@ -21,9 +21,9 @@ PROJECTS:
       to generate SQL. The result is executed in ClickHouse and returned to the web UI.<br><br>
       Stack: Python, PySpark, Airflow, ClickHouse, ChromaDB, Flask, Redis, Postgres, Docker, Nginx.<br><br>
     image: "config/assets/projects/sqlfree.jpg"
-    url: "mailto:akulov.dinis@gmal.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis!%0A%0ACould%20you%20please%20share%20the%20code%20from%20the%20project%20%22Natural%20Language%20SQL%20Generator%22%3F%0A%0AThank%20you!"
+    url: "mailto:akulov.dinis@gmail.com?subject=Repository%20Access%20Request&body=Hi,%20Dinis!%0A%0ACould%20you%20please%20share%20the%20code%20from%20the%20project%20%22Natural%20Language%20SQL%20Generator%22%3F%0A%0AThank%20you!"
   - title: "Skin Cancer CNN Classifier"
-    category: "CV"
+    category: "Computer Vision"
     description: |
       <br>A CNN for classifying dermoscopic images into 9 skin lesion categories using EfficientNet-B0 transfer learning.
       Trained on the ISIC dataset with class weights and heavy augmentation. Comes with a FastAPI inference server,
@@ -32,7 +32,7 @@ PROJECTS:
     image: "config/assets/projects/skin-cnn.jpg"
     url: "https://github.com/dinis-a/skin-cancer-cnn"
   - title: "JSON Repair Engine"
-    category: "LLM Tools"
+    category: ["LLM", "PyPI"]
     description: |
       <br>A JSON repair engine built for LLM-generated output. Fixes trailing commas, Python literals (True/False/None), unquoted keys, single quotes, comments, missing/extra commas, and unterminated structures. Returns structured diagnostics with confidence scoring.<br><br>
       Install: <code>pip install json-repair-engine</code><br>
@@ -40,7 +40,7 @@ PROJECTS:
     image: "config/assets/projects/json-repair.jpg"
     url: "https://pypi.org/project/json-repair-engine/"
   - title: "Russian Stylometry Toolkit"
-    category: "NLP"
+    category: ["NLP", "PyPI"]
     description: |
       <br>An interpretable toolkit for detecting machine-generated Russian text: 66 stylometric features (typography,
       lexicon, syntax, pymorphy3 morphology), a scikit-learn-compatible vectorizer, a CLI, and a classifier that
@@ -52,7 +52,7 @@ PROJECTS:
     image: "config/assets/projects/ru-stylometry.jpg"
     url: "https://pypi.org/project/ru-stylometry/"
   - title: "Stylometric AI Text Detector"
-    category: "NLP"
+    category: ["NLP", "PyPI"]
     description: |
       <br>A Python package that tells AI-generated text from human-written text using 8 stylometric features
       (character, word and sentence statistics, punctuation, capitalization) and a Random Forest classifier.
@@ -63,7 +63,7 @@ PROJECTS:
     image: "config/assets/projects/stylometric-ai-detector.jpg"
     url: "https://pypi.org/project/stylometric-ai-detector/"
   - title: "Skin Cancer Detection via Photo"
-    category: "CV"
+    category: "Computer Vision"
     description: |
       <br>A PyTorch-powered Telegram bot that analyzes user-uploaded skin photos and returns diagnostic predictions. 
       Built with aiogram, Dockerized for easy deployment.<br><br>
@@ -71,7 +71,7 @@ PROJECTS:
     image: "config/assets/projects/melanoma.jpg"
     url: "https://github.com/dinis-a/skin_ai"
   - title: "Chinese Shorts Generator"
-    category: "LLM Apps"
+    category: "LLM"
     description: |
       <br>An automated video creation tool that generates YouTube Shorts for Chinese language learning. 
       Combines text-to-speech (gTTS), pinyin romanization, and video editing (MoviePy) 
@@ -80,7 +80,7 @@ PROJECTS:
     image: "config/assets/projects/youtube.jpg"
     url: "https://www.youtube.com/@prosto_kitayskiy/shorts"
   - title: "AI Assistant Chatbot"
-    category: "LLM Apps"
+    category: "LLM"
     description: |
       <br>A Telegram bot that provides access to Google's Gemini AI models directly in your chat. 
       Supports multi-turn conversations, model switching, and markdown formatting. 
@@ -89,7 +89,7 @@ PROJECTS:
     image: "config/assets/projects/gemini.jpg"
     url: "https://github.com/dinis-a/gemini_telegram_bot"
   - title: "AB Calc: A/B Test Calculator"
-    category: "Statistics"
+    category: ["Statistics", "Android"]
     description: |
       <br>An Android app for planning and analyzing A/B tests (the same code also runs on desktop and web). It sizes the
       test and control groups from baseline conversion, minimum detectable effect, traffic split, significance and
@@ -101,3 +101,15 @@ PROJECTS:
       Stack: Python, Flet, GitHub Actions, RuStore API.<br><br>
     image: "config/assets/projects/abcalc.jpeg"
     url: "https://www.rustore.ru/catalog/app/com.flet.ab_calc_andorid"
+  - title: "AITrace: AI Text Detector"
+    category: ["NLP", "Android"]
+    description: |
+      <br>An offline Android app that tells whether a Russian text was written by a human or a language model,
+      and explains the verdict. A fine-tuned rubert-tiny2 model exported to ONNX gives the answer with 0.942
+      accuracy on the LLMTrace test split, while a 66-feature stylometric model shows the top five reasons
+      behind it. The text never leaves the phone: no network, no registration; the interface is in Russian
+      and English.<br><br>
+      Available on: RuStore (Android)<br>
+      Stack: Python, Flet, ONNX Runtime, Hugging Face Transformers, pymorphy3, NumPy, GitHub Actions.<br><br>
+    image: "config/assets/projects/aitrace.jpg"
+    url: "https://www.rustore.ru/catalog/app/com.flet.aitrace"

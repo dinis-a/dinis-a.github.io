@@ -29,7 +29,19 @@ class Portfolio:
     def load_config_file(self, file_key: str) -> dict[str, Any]:
         file_path = self.config_files.get(file_key)
         content = self.read_file(file_path)
-        return yaml.load(content, Loader=yaml.FullLoader)
+        config = yaml.load(content, Loader=yaml.FullLoader)
+        if file_key == "projects":
+            config = self.normalize_projects(config)
+        return config
+
+    def normalize_projects(self, config: dict[str, Any]) -> dict[str, Any]:
+        """Allow `category` to be either a string or a list of strings."""
+        for project in config.get("PROJECTS", []):
+            category = project.get("category") or []
+            if isinstance(category, str):
+                category = [category]
+            project["category"] = category
+        return config
 
     def format_date(self, date_str: str) -> str:
         date_object = datetime.strptime(date_str, "%Y-%m-%d")
